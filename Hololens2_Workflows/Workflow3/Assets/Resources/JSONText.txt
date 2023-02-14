@@ -1,0 +1,493 @@
+{
+	"status": 200,
+	"message": "success",
+	"data": {
+	"steps": {
+	"Mxq2gdhU7a6VAY0eLG1L": {
+	"data": {
+	"layouts": [
+	{
+	"items": [
+	{
+	"templateOptions": {
+	"options": [],
+	"description": "",
+	"vPosition": "center",
+	"label": "Press the ON/OFF button.",
+	"required": false,
+	"position": "centered",
+	"hPosition": "center",
+	"qrfield": "",
+	"placeholder": "",
+	"videoUrl": "",
+	"precision": null,
+	"disabled": false,
+	"imgUrl": "https://firebasestorage.googleapis.com/v0/b/hangaarlab-remote/o/accounts%2F-Lzi2MsOVNBztL0GILUx%2Fworkflows%2Fjr8rwCV7wQuOR2j6IHWj%2Fsteps%2Fundefined%2F-N4XOuwsxHSKlZIzjcZh.?alt=media&token=bae0f3c3-a504-4c8b-8f56-792536f0cbd1",
+	"unit": "",
+	"min": null,
+	"max": null
+	},
+	"key": "yR8P5dsGzlVoK03GwksS",
+	"type": "image"
+	}
+	]
+	}
+	],
+	"show": false,
+	"selected": false,
+	"next": "9aAJl7NUK2itsES6ACtJ",
+	"name": "Step 5",
+	"template": {
+	"name": "fullscreen",
+	"weights": [
+	1
+	],
+	"orientation": "row",
+	"count": 1
+	},
+	"editNameMode": false
+	}
+	},
+	"9aAJl7NUK2itsES6ACtJ": {
+	"data": {
+	"selected": false,
+	"template": {
+	"name": "vertical-equal",
+	"weights": [
+	1,
+	1
+	],
+	"orientation": "row",
+	"count": 2
+	},
+	"editNameMode": false,
+	"name": "Step 6",
+	"next": "GHCX4vaLc97nnuydFSaN",
+	"layouts": [
+	{
+	"items": [
+	{
+	"key": "BHi4LQiSJ57zgiKirU6r",
+	"templateOptions": {
+	"position": "centered",
+	"options": [],
+	"qrfield": "",
+	"label": "Please enter the value on the screen.",
+	"hPosition": "center",
+	"description": "",
+	"placeholder": "",
+	"vPosition": "center",
+	"required": false,
+	"max": 30,
+	"precision": 1,
+	"videoUrl": "",
+	"imgUrl": "",
+	"disabled": false,
+	"unit": "°C",
+	"min": -4
+	},
+	"type": "number"
+	}
+	]
+	},
+	{
+	"items": [
+	{
+	"key": "g0EPn68iInsf2AcI4SYc",
+	"templateOptions": {
+	"placeholder": "",
+	"options": [],
+	"imgUrl": "https://firebasestorage.googleapis.com/v0/b/hangaarlab-remote/o/accounts%2F-Lzi2MsOVNBztL0GILUx%2Fworkflows%2Fjr8rwCV7wQuOR2j6IHWj%2Fsteps%2Fundefined%2F-N4XP8i4cNm2xgMUPOZz.?alt=media&token=57cd0e1b-6efb-4e9c-b4d3-7cf8b165b166",
+	"videoUrl": "",
+	"min": null,
+	"position": "centered",
+	"required": false,
+	"label": "",
+	"disabled": false,
+	"hPosition": "center",
+	"qrfield": "",
+	"max": null,
+	"description": "",
+	"vPosition": "center",
+	"unit": "",
+	"precision": null
+	},
+	"type": "image"
+	}
+	]
+	}
+	],
+	"show": false
+	}
+	},
+	"BbnU0jxs0x2eKukiJYwq": {
+	"data": {
+	"editNameMode": false,
+	"layouts": [
+	{
+	"items": [
+	{
+	"type": "radio",
+	"key": "tP47lHKCCajzwlUXeZ9V",
+	"templateOptions": {
+	"max": null,
+	"placeholder": "",
+	"description": "",
+	"imgUrl": "",
+	"position": "centered",
+	"disabled": false,
+	"options": [
+	{
+	"value": 1,
+	"label": "Working"
+	},
+	{
+	"label": "Not working",
+	"value": 2
+	}
+	],
+	"vPosition": "center",
+	"precision": null,
+	"required": false,
+	"qrfield": "",
+	"min": null,
+	"hPosition": "center",
+	"videoUrl": "",
+	"unit": "",
+	"label": "Is the air conditioner working?"
+	}
+	}
+	]
+	},
+	{
+	"items": [
+	{
+	"key": "4o4cUWclHODdySWamUyJ",
+	"type": "image",
+	"templateOptions": {
+	"required": false,
+	"imgUrl": "https://firebasestorage.googleapis.com/v0/b/hangaarlab-remote/o/accounts%2F-Lzi2MsOVNBztL0GILUx%2Fworkflows%2Fjr8rwCV7wQuOR2j6IHWj%2Fsteps%2Fundefined%2F-N4XOfP9Re5nFhtYO4iP.?alt=media&token=0cd72dad-b0e9-4dae-bc8c-ef4eb778d73a",
+	"hPosition": "center",
+	"precision": null,
+	"placeholder": "",
+	"qrfield": "",
+	"label": "",
+	"videoUrl": "",
+	"description": "",
+	"unit": "",
+	"min": null,
+	"max": null,
+	"disabled": false,
+	"vPosition": "center",
+	"position": "centered",
+	"options": []
+	}
+	}
+	]
+	}
+	],
+	"name": "Step 4",
+	"template": {
+	"count": 2,
+	"weights": [
+	1,
+	1
+	],
+	"name": "vertical-equal",
+	"orientation": "row"
+	},
+	"selected": false,
+	"next": "Mxq2gdhU7a6VAY0eLG1L",
+	"show": false
+	}
+	},
+	"wY17SxERuFbVupEqkWNd": {
+	"data": {
+	"next": "BbnU0jxs0x2eKukiJYwq",
+	"show": false,
+	"template": {
+	"count": 1,
+	"orientation": "row",
+	"weights": [
+	1
+	],
+	"name": "fullscreen"
+	},
+	"name": "Step 3",
+	"layouts": [
+	{
+	"items": [
+	{
+	"type": "image",
+	"key": "qYmL71BTPB7SpTYQlQSk",
+	"templateOptions": {
+	"disabled": false,
+	"qrfield": "",
+	"imgUrl": "https://firebasestorage.googleapis.com/v0/b/hangaarlab-remote/o/accounts%2F-Lzi2MsOVNBztL0GILUx%2Fworkflows%2Fjr8rwCV7wQuOR2j6IHWj%2Fsteps%2Fundefined%2F-N4XOOOLqqY1lMneaV3v.?alt=media&token=00808401-aece-4fb6-8f0c-da0c87381a0d",
+	"hPosition": "center",
+	"label": "Please find the controller of the air conditioner.",
+	"description": "",
+	"vPosition": "center",
+	"min": null,
+	"precision": null,
+	"unit": "",
+	"placeholder": "",
+	"required": false,
+	"videoUrl": "",
+	"max": null,
+	"position": "centered",
+	"options": []
+	}
+	}
+	]
+	}
+	],
+	"selected": false,
+	"editNameMode": false
+	}
+	},
+	"WffiqmoEJKxfamjwQByt": {
+	"data": {
+	"layouts": [
+	{
+	"items": [
+	{
+	"key": "kXTjHOOpsfkbq781prdm",
+	"type": "label",
+	"templateOptions": {
+	"imgUrl": "",
+	"videoUrl": "",
+	"qrfield": "",
+	"hPosition": "center",
+	"placeholder": "",
+	"vPosition": "center",
+	"label": "This workflow shows how to adjust the air conditioner.",
+	"disabled": false,
+	"required": false,
+	"position": "centered",
+	"min": null,
+	"options": [],
+	"precision": null,
+	"unit": "",
+	"max": null,
+	"description": ""
+	}
+	}
+	]
+	}
+	],
+	"name": "Step 1",
+	"next": "ojwU3hlJPmlqlzUsRlDn",
+	"selected": true,
+	"show": false,
+	"template": {
+	"orientation": "row",
+	"name": "fullscreen",
+	"weights": [
+	1
+	],
+	"count": 1
+	},
+	"editNameMode": false
+	}
+	},
+	"PsfYnYFiOxZAGOVSkfZ4": {
+	"data": {
+	"editNameMode": false,
+	"layouts": [
+	{
+	"items": [
+	{
+	"key": "n3B3AAoP2XIR9DLeUzh2",
+	"type": "captureImage",
+	"templateOptions": {
+	"placeholder": "",
+	"precision": null,
+	"max": null,
+	"unit": "",
+	"vPosition": "center",
+	"position": "centered",
+	"description": "",
+	"required": true,
+	"qrfield": "",
+	"imgUrl": "",
+	"min": null,
+	"videoUrl": "",
+	"label": "Please take a photo of the controller after the changes.",
+	"disabled": false,
+	"hPosition": "center",
+	"options": []
+	}
+	}
+	]
+	}
+	],
+	"name": "Step 9",
+	"selected": false,
+	"template": {
+	"weights": [
+	1
+	],
+	"count": 1,
+	"name": "fullscreen",
+	"orientation": "row"
+	},
+	"show": false
+	}
+	},
+	"a1ZADqgwOqkEjYNr2VwI": {
+	"data": {
+	"show": false,
+	"selected": false,
+	"editNameMode": false,
+	"name": "Step 8",
+	"layouts": [
+	{
+	"items": [
+	{
+	"templateOptions": {
+	"hPosition": "center",
+	"required": false,
+	"vPosition": "center",
+	"disabled": false,
+	"options": [],
+	"max": null,
+	"imgUrl": "",
+	"placeholder": "",
+	"description": "",
+	"qrfield": "",
+	"min": null,
+	"videoUrl": "https://firebasestorage.googleapis.com/v0/b/hangaarlab-remote/o/accounts%2F-Lzi2MsOVNBztL0GILUx%2Fworkflows%2Fjr8rwCV7wQuOR2j6IHWj%2Fsteps%2Fundefined%2F-N4XPPkcmg25NnOBipkT.?alt=media&token=fb56cf2e-16cc-4f15-a2ed-393bdda9b6bc",
+	"position": "centered",
+	"precision": null,
+	"label": "Please set the room temperature to 22 degrees Celsius",
+	"unit": ""
+	},
+	"type": "video",
+	"key": "bB3RB4qpKMBioBN7GMi6"
+	}
+	]
+	}
+	],
+	"template": {
+	"name": "fullscreen",
+	"orientation": "row",
+	"count": 1,
+	"weights": [
+	1
+	]
+	},
+	"next": "PsfYnYFiOxZAGOVSkfZ4"
+	}
+	},
+	"GHCX4vaLc97nnuydFSaN": {
+	"data": {
+	"show": false,
+	"next": "a1ZADqgwOqkEjYNr2VwI",
+	"template": {
+	"count": 1,
+	"orientation": "row",
+	"weights": [
+	1
+	],
+	"name": "fullscreen"
+	},
+	"name": "Step 7",
+	"selected": false,
+	"layouts": [
+	{
+	"items": [
+	{
+	"key": "Nza0K4nXT7ZyHmje1qNw",
+	"templateOptions": {
+	"max": null,
+	"min": null,
+	"precision": null,
+	"label": "You can adjust the room temperature with the marked buttons.",
+	"unit": "",
+	"hPosition": "center",
+	"imgUrl": "https://firebasestorage.googleapis.com/v0/b/hangaarlab-remote/o/accounts%2F-Lzi2MsOVNBztL0GILUx%2Fworkflows%2Fjr8rwCV7wQuOR2j6IHWj%2Fsteps%2Fundefined%2F-N4XPJ6SymWN15z4pIY9.?alt=media&token=34eb1f8b-0b42-4eb6-8edb-3a580b549e23",
+	"qrfield": "",
+	"required": false,
+	"videoUrl": "",
+	"position": "centered",
+	"description": "",
+	"placeholder": "",
+	"vPosition": "center",
+	"disabled": false,
+	"options": []
+	},
+	"type": "image"
+	}
+	]
+	}
+	],
+	"editNameMode": false
+	}
+	},
+	"ojwU3hlJPmlqlzUsRlDn": {
+	"data": {
+	"template": {
+	"name": "fullscreen",
+	"count": 1,
+	"weights": [
+	1
+	],
+	"orientation": "row"
+	},
+	"next": "wY17SxERuFbVupEqkWNd",
+	"selected": false,
+	"name": "Step 2",
+	"layouts": [
+	{
+	"items": [
+	{
+	"key": "lcBVEkgW2hDQfNP9REsc",
+	"type": "ppe",
+	"templateOptions": {
+	"options": [
+	{
+	"value": false,
+	"label": "Face Cover"
+	},
+	{
+	"value": true,
+	"label": "Head Cover"
+	},
+	{
+	"value": false,
+	"label": "Hand Cover"
+	}
+	],
+	"min": null,
+	"position": "centered",
+	"videoUrl": "",
+	"imgUrl": "",
+	"placeholder": "",
+	"description": "",
+	"unit": "",
+	"hPosition": "center",
+	"precision": null,
+	"label": "Please wear your helmet and verify with the picture.",
+	"vPosition": "center",
+	"disabled": false,
+	"qrfield": "",
+	"max": null,
+	"required": false
+	}
+	}
+	]
+	}
+	],
+	"show": false,
+	"editNameMode": false
+	}
+	}
+	},
+	"description": "",
+	"name": "Adjusting Air Conditioner",
+	"initialStep": "WffiqmoEJKxfamjwQByt",
+	"version": 1,
+	"id": "jr8rwCV7wQuOR2j6IHWj"
+	}
+}

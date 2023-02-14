@@ -1,0 +1,47 @@
+{
+    "name": "Step 1",
+    "next": "ojwU3hlJPmlqlzUsRlDn",
+    "selected": true,
+    "show": false,
+    "template": {
+        "orientation": "row",
+        "name": "fullscreen",
+        "weights": [
+            1
+        ],
+        "count": 1
+    },
+    "editNameMode": false
+    }
+    },
+    "PsfYnYFiOxZAGOVSkfZ4": {
+    "data": {
+    "editNameMode": false,
+    "layouts": [
+    {
+    "items": [
+    {
+    "key": "n3B3AAoP2XIR9DLeUzh2",
+    "type": "captureImage",
+    "templateOptions": {
+    "placeholder": "",
+    "precision": null,
+    "max": null,
+    "unit": "",
+    "vPosition": "center",
+    "position": "centered",
+    "description": "",
+    "required": true,
+    "qrfield": "",
+    "imgUrl": "",
+    "min": null,
+    "videoUrl": "",
+    "label": "Please take a photo of the controller after the changes.",
+    "disabled": false,
+    "hPosition": "center",
+    "options": []
+    }
+    }
+    ]
+    }
+]
