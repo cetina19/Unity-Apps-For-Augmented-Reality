@@ -1,0 +1,13 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Dynamic/All_Steps.unity
+    guid: 8ef1c05b666302349b4ff02ee5860c99
+  m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: de548dba433b7b742b44b0d898c462f2, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: e21ebeba8f380b442ba4927454e31932, type: 2}

@@ -1,0 +1,32 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="ChangeScene">
+			<method name="ChangeNext"/>
+			<method name="ChangeNext"/>
+			<method name="ChangeNext"/>
+			<method name="ChangeNext"/>
+			<method name="ChangeNext"/>
+			<method name="ChangePrevious"/>
+			<method name="ChangePrevious"/>
+			<method name="ChangePrevious"/>
+			<method name="ChangePrevious"/>
+			<method name="ChangePrevious"/>
+		</type>
+		<type fullname="GalleryAndCamera">
+			<method name="ChangeScene"/>
+			<method name="ChangeScene"/>
+		</type>
+		<type fullname="Toggles">
+			<method name="Clicked"/>
+			<method name="Clicked"/>
+			<method name="Clicked"/>
+			<method name="Clicked"/>
+		</type>
+		<type fullname="VirtualGallery">
+			<method name="BtnNext"/>
+			<method name="BtnNext"/>
+			<method name="BtnPrev"/>
+			<method name="BtnPrev"/>
+		</type>
+	</assembly>
+</linker>

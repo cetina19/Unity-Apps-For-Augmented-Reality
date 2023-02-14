@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "packages": {
+    "com.visometry.visionlib.sdk": {
+      "tarball": {
+        "hash": "f8b42e6cb8b4",
+        "mtime": 1656415386545,
+        "size": 118920171,
+        "localPath": "C:\\Users\\90507\\Downloads\\VisionLib.SDK-Unity-2.2.1.tgz"
+      }
+    }
+  }
+}

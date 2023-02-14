@@ -1,0 +1,47 @@
+{
+"instructions_readme": "1) Open Chrome, 2) go to chrome://tracing, 3) click Load, 4) navigate to this file.",
+
+"traceEvents":[
+{ "pid": "il2cpp_outer", "ph":"M", "name": "process_name", "args": {"name": "il2cpp_outer"} },
+{ "pid": "il2cpp_outer", "ph":"M", "name": "process_sort_index", "args": {"sort_index": -1} },
+{ "pid": "il2cpp_outer", "tid": 1, "ph":"M", "name": "thread_name", "args": {"name": "Main thread"} },
+{ "pid": "il2cpp_outer", "tid": 1,"ts": 263862264549.8,"dur": 315938.6, "ph":"X", "name": "il2cpp.exe"},
+{ "pid": "il2cpp_outer", "tid": 1,"ts": 263862267959.6,"dur": 186249.3, "ph":"X", "name": "BeeDriverRunner.Execute"},
+{ "pid": "BeeDriver", "ph":"M", "name": "process_name", "args": {"name": "BeeDriver"} },
+{ "pid": "BeeDriver", "ph":"M", "name": "process_sort_index", "args": {"sort_index": -2} },
+{ "pid": "BeeDriver", "tid": 1, "ph":"M", "name": "thread_name", "args": {"name": "Main thread"} },
+{ "pid": "BeeDriver", "tid": 1,"ts": 263862282073.5,"dur": 0, "ph":"X", "name": "Build FinalProgram"},
+{ "pid": "BeeDriver", "tid": 1,"ts": 263862282300.7,"dur": 10945.6, "ph":"X", "name": "WriteBuildProgramData"},
+{ "pid": "BeeDriver", "tid": 1,"ts": 263862293435.9,"dur": 151713.4, "ph":"X", "name": "Run Backend"},
+{ "cat":"", "pid":"bee_backend", "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":"bee_backend", "tid":0, "ts":263862347368, "dur":14834, "ph":"X", "name": "DriverCheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":"bee_backend", "tid":0, "ts":263862362203, "dur":1471, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":"bee_backend", "tid":0, "ts":263862363745, "dur":113, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":"bee_backend", "tid":0, "ts":263862363872, "dur":2, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":"bee_backend", "tid":0, "ts":263862363876, "dur":214, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":"bee_backend", "tid":0, "ts":263862418515, "dur":204, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":"bee_backend", "tid":0, "ts":263862418746, "dur":26, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":"bee_backend", "tid":0, "ts":263862418784, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":"bee_backend", "tid":0, "ts":263862418793, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":"bee_backend", "tid":0, "ts":263862418801, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":"bee_backend", "tid":0, "ts":263862418808, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":"bee_backend", "tid":0, "ts":263862418817, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":"bee_backend", "tid":0, "ts":263862418870, "dur":2048, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":"bee_backend", "tid":1, "ts":263862364469, "dur":18988, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"IL2CPP_CodeGenAndCompile C:/Users/90507/Desktop/Vsight/Workflow/Library/UWP/ARM64/Release/il2cpp_cache/buildstate/artifacts/il2cpp_conv_mxwe.traceevents" }}
+,{ "pid":"bee_backend", "tid":1, "ts":263862418492, "dur":24, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":"bee_backend", "tid":2, "ts":263862364526, "dur":54030, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":"bee_backend", "tid":3, "ts":263862364623, "dur":53930, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":"bee_backend", "tid":4, "ts":263862364702, "dur":53848, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":"bee_backend", "tid":5, "ts":263862364767, "dur":53754, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":"bee_backend", "tid":6, "ts":263862364849, "dur":53670, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":"bee_backend", "tid":0, "ts":263862422449, "dur":298, "ph":"X", "name": "ProfilerWriteOutput" }
+,{}
+
+],
+"meta_datetime": "08/05/2022 15:29:44",
+"meta_command_line": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2021.3.1f1\\Editor\\Data\\il2cpp\\build\\deploy\\il2cpp.dll\" --convert-to-cpp --emit-null-checks --enable-array-bounds-check --dotnetprofile=unityaot-win32 --compile-cpp --libil2cpp-static --platform=WinRT --architecture=ARM64 --configuration=Release --outputpath=C:\\Users\\90507\\Desktop\\Vsight\\Workflow\\Library/Il2cppBuildCache/UWP/VSProject\\Native\\GameAssembly.dll --cachedirectory=C:\\Users\\90507\\Desktop\\Vsight\\Workflow\\Assets\\..\\Library\\UWP\\ARM64\\Release/il2cpp_cache \"--baselib-directory=C:\\Program Files\\Unity\\Hub\\Editor\\2021.3.1f1\\Editor\\Data\\PlaybackEngines\\MetroSupport\\Players\\UAP\\il2cpp\\ARM64\\Release\" --avoid-dynamic-library-copy --relative-data-path=Data/il2cpp_data --incremental-g-c-time-slice=3 --dont-deploy-baselib --profiler-report --directory=C:/Users/90507/Desktop/Vsight/Workflow/Temp/StagingArea/Data/Managed --generatedcppdir=C:/Users/90507/Desktop/Vsight/Workflow/Library/Il2cppBuildCache/UWP/VSProject/il2cppOutput --stats-output-dir=C:/Users/90507/Desktop/Vsight/Workflow/Library/Il2cppBuildCache/UWP/VSProject/il2cppStats --convert-in-graph",
+"meta_command_line_args": "C:\\Program Files\\Unity\\Hub\\Editor\\2021.3.1f1\\Editor\\Data\\il2cpp\\build\\deploy\\il2cpp.dll --convert-to-cpp --emit-null-checks --enable-array-bounds-check --dotnetprofile=unityaot-win32 --compile-cpp --libil2cpp-static --platform=WinRT --architecture=ARM64 --configuration=Release --outputpath=C:\\Users\\90507\\Desktop\\Vsight\\Workflow\\Library/Il2cppBuildCache/UWP/VSProject\\Native\\GameAssembly.dll --cachedirectory=C:\\Users\\90507\\Desktop\\Vsight\\Workflow\\Assets\\..\\Library\\UWP\\ARM64\\Release/il2cpp_cache --baselib-directory=C:\\Program Files\\Unity\\Hub\\Editor\\2021.3.1f1\\Editor\\Data\\PlaybackEngines\\MetroSupport\\Players\\UAP\\il2cpp\\ARM64\\Release --avoid-dynamic-library-copy --relative-data-path=Data/il2cpp_data --incremental-g-c-time-slice=3 --dont-deploy-baselib --profiler-report --directory=C:/Users/90507/Desktop/Vsight/Workflow/Temp/StagingArea/Data/Managed --generatedcppdir=C:/Users/90507/Desktop/Vsight/Workflow/Library/Il2cppBuildCache/UWP/VSProject/il2cppOutput --stats-output-dir=C:/Users/90507/Desktop/Vsight/Workflow/Library/Il2cppBuildCache/UWP/VSProject/il2cppStats --convert-in-graph",
+"meta_user_name": "90507",
+"meta_os_version": "Microsoft Windows NT 10.0.19044.0",
+"meta_cpu_count": "6"
+}

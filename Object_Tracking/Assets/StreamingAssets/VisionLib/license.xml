@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<licenses>
+ <license expiredate="01.03.2019" name="Vision" version="2.00" zkey="kwADAgAUkrtttv3pUc+xFsBmHWE1188f15sAFEyx+GhnEmUdkv5Zr4gt7WtcRxOI">
+  <comment>Created by tengelke</comment>
+  <user>
+   <organization>Hangaarlab</organization>
+   <street>Galvanize Soma, Suit 303, 44 Tehoma St, San Francisco, CA 94105</street>
+   <city>San Francisco</city>
+   <country>US</country>
+   <contact>ismet@hangaarlab.com</contact>
+  </user>
+  <hosts>
+   <host id="ANY" name="Allow any ID"/>
+  </hosts>
+  <features>
+   <feature name="ANY"/>
+   <feature name="licenseType" value="trialSDK"/>
+   <feature name="feature:NumberOfStartsPerDeployment" value="5"/>
+   <feature name="feature:AllowUnlimitedModels"/>
+   <feature name="feature:AllowUnregisteredModels"/>
+   <feature name="feature:AllowDeviceiOS"/>
+   <feature name="feature:AllowDeviceAndroid"/>
+   <feature name="feature:AllowDeviceWindows"/>
+   <feature name="feature:AllowDeviceMacOS"/>
+   <feature name="feature:AllowDeviceUWP"/>
+   <feature name="feature:AllowDeviceHoloLens"/>
+   <feature name="featureBundle:Basic"/>
+  </features>
+ </license>
+</licenses>
